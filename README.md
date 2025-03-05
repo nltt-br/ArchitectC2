@@ -6,7 +6,7 @@
         - Presence Intent
         - Server Members Intent
         - Message Content Intent
-    ![](DiscordOptions.png)
+    ![](src/DiscordOptions.png)
 
 2 - Add bot_token in _bot.run('TOKEN')_
 
@@ -35,9 +35,9 @@ pyinstaller --onefile --name=Architect architect.py
 
 %sh *command*
 
-![](Usage.png)
+![](src/Usage.png)
 
 
 # After execute
 
-![](AfterUsage.png)
+![](src/AfterUsage.png)
