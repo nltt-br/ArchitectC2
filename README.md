@@ -6,9 +6,9 @@
         - Presence Intent
         - Server Members Intent
         - Message Content Intent
-    ![](src/DiscordOptions.png)
+    ![](DiscordOptions.png)
 
-2 - Add bot_token in _bot.run('TOKEN')_
+2 - Add bot_token in .env file
 
 3.1 - Generate code in client windows
 ```
@@ -17,16 +17,16 @@ cd ArchitectC2
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 python -m pip -r install requirements.txt
-pyinstaller --onefile --name=Architect architect.py
+pyinstaller --onefile --add-data ".env;." --name=Architect architect.py
 .\ArchitectC2
 ```
 
-3.2 - Generate code in client linux
+3.2 - Generate code in client linux/macos
 ```
 Download ArchitectC2.zip and unzip
 cd ArchitectC2
 pip -r install requirements.txt
-pyinstaller --onefile --name=Architect architect.py
+pyinstaller --onefile --add-data ".env:." --name=Architect architect.py
 ./Architect
 ```
 
@@ -35,9 +35,9 @@ pyinstaller --onefile --name=Architect architect.py
 
 %sh *command*
 
-![](src/Usage.png)
+![](Usage.png)
 
 
 # After execute
 
-![](src/AfterUsage.png)
+![](AfterUsage.png)

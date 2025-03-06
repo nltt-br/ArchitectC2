@@ -6,6 +6,10 @@
 from discord import Intents
 from discord.ext import commands
 from subprocess import run
+from dotenv import load_dotenv
+from os import getenv
+
+load_dotenv()
 
 if __name__ == "__main__":
     intents = Intents.default()
@@ -26,4 +30,4 @@ if __name__ == "__main__":
         else:
             await ctx.send('Please provide a command after "%sh"')
 
-    bot.run('TOKEN')
+    bot.run(getenv('TOKEN'))
