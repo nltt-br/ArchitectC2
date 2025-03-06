@@ -10,7 +10,7 @@
 
 2 - Add bot_token in .env file
 
-3.1 - Generate code in client windows
+3.1 - Generate executable file in client windows
 ```
 Download ArchitectC2.zip and unzip
 cd ArchitectC2
@@ -21,7 +21,7 @@ pyinstaller --onefile --add-data ".env;." --name=Architect architect.py
 .\ArchitectC2
 ```
 
-3.2 - Generate code in client linux/macos
+3.2 - Generate executable file in client linux/macos
 ```
 Download ArchitectC2.zip and unzip
 cd ArchitectC2
