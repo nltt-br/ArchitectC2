@@ -2,11 +2,11 @@
 
 0 - Generate bot_token in [here](https://www.writebots.com/discord-bot-token/)
 1 - Active Bot Options
-    * Privileged Gateway Intents
-        - Presence Intent
-        - Server Members Intent
-        - Message Content Intent
-    ![](DiscordOptions.png)
+* Privileged Gateway Intents
+    - Presence Intent
+    - Server Members Intent
+    - Message Content Intent
+![](DiscordOptions.png)
 
 2 - Add bot_token in .env file
 
